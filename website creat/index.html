@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {background-image: url("https://www.kpoppost.com/wp-content/uploads/2021/03/RM.jpg");
+size: 300%;
+}
+li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #707070;
+  font-family: Tahoma, sana-serif ;
+ 
+}
+
+h1 { text-align: center;
+color: white;
+font-family: georgia;
+}
+
+h4 { text-align:center;
+color:bLACK;
+font-family: georgia ;
+color:white;}
+
+li {
+  float: left;
+  border-right:1px solid bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:#34495E ;
+}
+
+.active {
+  background-color:#34495E ;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #2C3E50; 
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit]:hover {
+  background-color:#ABB2B9;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #707070;
+  padding: 20px;
+margin: 30px 350px 90px 300px;
+float: left;
+}
+</style>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#About us">About as</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li ><a href="#about">BLOG</a></li>
+</ul>
+
+
+</br></br>
+
+
+<h1>rkiVe °-° liBraRY|</h1>
+
+<h4>If you only read the books that everyone else reads,<br> you will only think what everyone else
+ thinks read a lot of diverse books,</br>it's your chance to change your mind!<br></br>please fill out the following form! </br></br>with information to help us contact you as soon as possible :')</h4>
+
+</br></br>
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Full name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Phone Number</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your phone Number..">
+
+    <label for="Age">AGE</label>
+    <select id="select" name="agee">
+      <option value="age">10-14</option>
+      <option value="age2">15-18</option>
+      <option value="age3">18-25</option>
+      <option value="age4">+25</option>
+    </select>
+     <label for="gender">Gender</label>
+    <select id="select2" name="gen">
+      <option value="gen1">GIRL</option>
+      <option value="gen2">BOY</option>
+      <option value="gen3">OTHER</option>
+      </select>
+  
+  </form>
+</div>
+
+</body>
+</html>
